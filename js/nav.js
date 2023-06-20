@@ -12,87 +12,89 @@
               "url": "u1s1.html"
             },
             {
-              "urlText": "1.2 Finding Limits Algebraically/Infinite Limits",
+              "urlText": "1.2 Finding Limits Algebraically/Infinite Limits/Continuity",
               "url": "u1s2.html"
             },
             {
-              "urlText": "1.3 Continuity",
+              "urlText": "1.3 Definition of Derivatives",
               "url": "u1s3.html"
             },
             {
-              "urlText": "1.4 Definition of Derivatives",
+              "urlText": "1.4 Derivatives: The Power Rule",
               "url": "u1s4.html"
-            },
-            {
-              "urlText": "1.5 Derivatives: The Power Rule",
-              "url": "u1s5.html"
-            },
-            {
-              "urlText": "1.6 Marginal Analysis in Business and Economics",
-              "url": "u1s6.html"
             }
+                   
           ]
         },
         {
           "title": "Unit 2",
           "nav": [
             {
-              "urlText": "2.1 Exponential and Logarithmic Function Applications",
+              "urlText": "2.1 Marginal Analysis in Business and Economics",
               "url": "u2s1.html"
             },
+
             {
-              "urlText": "2.2 Derivatives of Exponential and Logarithmic Functions",
+              "urlText": "2.2 The First Derivative Test",
               "url": "u2s2.html"
             },
+          
             {
-              "urlText": "2.3 Derivatives of Products",
+              "urlText": "2.3 The Second Derivative Test",
               "url": "u2s3.html"
             },
-                {
-              "urlText": "2.4 Derivatives of Quotients",
+            {
+              "urlText": "2.4 Graph Analysis: Polynomials",
               "url": "u2s4.html"
             },
+            
             {
-              "urlText": "2.5 The Chain Rule",
+              "urlText": "2.5 Absolute Extrema",
               "url": "u2s5.html"
+            },
+            {
+              "urlText": "2.6 Introduction to Optimization",
+              "url": "u2s6.html"
+            },
+            {
+              "urlText": "2.7 Optimization in Packaging: Cans",
+              "url": "u2s7.html"
+            },
+            {
+              "urlText": "2.8 Optimization in Packaging: Boxes",
+              "url": "u2s8.html"
             }
           ]
         },
         {
           "title": "Unit 3",
           "nav": [
+                       
             {
-              "urlText": "3.1 Analyzing Graphs Algebraically",
+              "urlText": "3.1 Exponential and Logarithmic Function Applications",
               "url": "u3s1.html"
             },
             {
-              "urlText": "3.2 The First Derivative Test",
+              "urlText": "3.2 Derivatives of Exponential and Logarithmic Functions",
               "url": "u3s2.html"
             },
-            {
-              "urlText": "3.3 The Second Derivative Test",
+                     {
+              "urlText": "3.3 Derivatives of Products",
               "url": "u3s3.html"
             },
             {
-              "urlText": "3.4 Summary of Curve Sketching",
+              "urlText": "3.4 Derivatives of Quotients",
               "url": "u3s4.html"
             },
             {
-              "urlText": "3.5 Absolute Extrema",
+              "urlText": "3.5 The Chain Rule",
               "url": "u3s5.html"
             },
             {
-              "urlText": "3.6 Introduction to Optimization",
+              "urlText": "3.6 Graph Analysis: Rational Functions",
               "url": "u3s6.html"
-            },
-            {
-              "urlText": "3.7 Optimization in Packaging: Cans",
-              "url": "u3s7.html"
-            },
-            {
-              "urlText": "3 8 Optimization in Packaging: Boxes",
-              "url": "u3s8.html"
             }
+           
           ]
         },
         {

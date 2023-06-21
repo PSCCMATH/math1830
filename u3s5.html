@@ -25,178 +25,10 @@
         <h1 id="u2toc">MATH 1830</h1>
 
 
-          <h2 >Unit 2 Derivatives</h2>
+    <h2 >Unit 3 Derivative Rules</h2>
 
+    <h3>3.5 The Chain Rule</h3>
 
-
-
-
-<article class="notes">
-
-                <h3>2.5 The Chain Rule</h3>
-
-<h4> Pre-Class 2.5A:</h4>
-<ul>
-             <li>Complete 2.4 homework assignment: check and correct.  </li>
-
-              <li> Take notes on the videos and readings (use the space below).  </li>
-              <li> Work and check problems #1-4 in the 2.5 NOTES section.  </li>
-              
-              <li> Complete the 2.5A Pre-Class Quiz</li>
-              </ul>
-               <div class="row text-center m-buttons"> 
-              <!--  Begin Row 1.5A -->
-
-
-          <div class="col-sm-2">
-        <a href="https://psccmath.github.io/math1830/u2s4.html" target="_blank">
-          <div class="box " tabindex="0">
-            <i class="fa fa-check fa-3x "></i>
-            <p>2.4 HW</p>
-          </div>
-        </a>
-       </div>
-
-
-       <!-- <div class="col-sm-2">
-         <a onclick="window.print()" href=#>
-           <div class="box " tabindex="0">
-             <i class="fa fa-print fa-3x "></i>
-             <p>Print</p>
-           </div>
-         </a>
-       </div> -->
-      <div class="col-sm-2">
-    <a href="https://cnx.org/contents/i4nRcikn@2.50:7Ge5cmgd@3/The-Chain-Rule" target="_blank">
-      <div class="box " tabindex="0">
-        <i class="fa fa-book fa-3x "></i>
-        <p>Read</p>
-      </div>
-    </a>
-  </div>
-
-
-  <div class="col-sm-2">
-  <a href="http://www.youtube.com/watch?v=XIQ-KnsAsbg" target="_blank">
-  <div class="box " tabindex="0">
-    <i class="fa fa-play fa-3x "></i>
-    <p>Watch</p>
-  </div>
-  </a>
-  </div>
-
-  <div class="col-sm-2">
-  <a href="https://www.myopenmath.com/" target="_blank">
-  <div class="box " tabindex="0">
-  <i class="fa fa-line-chart fa-3x "></i>
-  <p>2.5A Quiz</p>
-  </div>
-  </a>
-  </div>
- 
-   <div class="col-sm-2">
-  <a href="#ar" target="_blank">
-  <div class="box " tabindex="0">
-    <i class="fa fa-pencil-square fa-3x "></i>
-    <p>Resources</p>
-  </div>
-  </a>
-  </div>  
-
-  </div>   <!--  End Row 1.5A -->
-  
-  <h4> Pre-Class 2.5B:</h4>
-<ul>
-             <li>Complete 1.5A Homework assignment: check and correct.  </li>
-
-              <li> Take notes on the videos and readings (use the space below).  </li>
-             
-              <li>1.5B Work and check problems #13 in the 2.5 NOTES section.  </li>
-              <li> Complete 2.5B Pre-Class Quiz</li>
-              </ul>
-
-    <div class="row text-center m-buttons">
-<!--  Begin Row 1.5B -->
-
-          <div class="col-sm-2">
-        <a href="https://psccmath.github.io/math1830/u2s5.html" target="_blank">
-          <div class="box " tabindex="0">
-            <i class="fa fa-check fa-3x "></i>
-            <p>2.5A HW</p>
-          </div>
-        </a>
-       </div>
-
-
-     
-     
-
-
-  <div class="col-sm-2">
-  <a href="http://www.youtube.com/watch?v=cngzQ5xIOBY" target="_blank">
-  <div class="box " tabindex="0">
-    <i class="fa fa-play fa-3x "></i>
-    <p>Watch</p>
-  </div>
-  </a>
-  </div>
-
-   <div class="col-sm-2">
-  <a href="https://www.myopenmath.com/" target="_blank">
-  <div class="box " tabindex="0">
-  <i class="fa fa-line-chart fa-3x "></i>
-  <p>2.5B Quiz</p>
-  </div>
-  </a>
-  </div> 
-
- <div class="col-sm-2">
-  <a href="#ar" target="_blank">
-  <div class="box " tabindex="0">
-    <i class="fa fa-pencil-square fa-3x "></i>
-    <p>Resources</p>
-  </div>
-  </a>
-  </div> 
-
-
-
-
-
-  </div>   
-<!--  End Row 1.5B -->
-
-
-                <h4 class="m1830-pagebreak">Introduction</h4>
-                <ol>
-
-                    <li class="m1830-problem">
-                        <p class="m1830-problem-text">
-                            The gas tank of a parked pickup truck develops a leak. The amount of gas, in liters, remaining in the tank after t hours is represented by the function $V(t) = 90{\left( {1 - \frac{t}{{18}}} \right)^2}\quad 0 \le t \le 18$. How fast is the gas leaking
-                            from the tank after 12 hours?</p>
-<p class="m1830-solution">$f(x) = 90(1-\frac{t}{9}+\frac{t^2}{324})$</p>
-                        <p class="m1830-solution">$f(x) = 90 - 10t + \frac{5}{{18}}{t^2}$</p>
-                        <p class="m1830-solution">$f&#39;(x) = - 10 + \frac{5}{9}t$</p>
-                        <p class="m1830-solution">$f&#39;(12) = - 3.33$</p>
-                        <p class="m1830-answer">The gas is leaking from the tank at a rate of 3.33 liters per hour after 12 hours.</p>
-
-                    </li>
-
-                    <li class="m1830-problem">
-                        <p class="m1830-problem-text">
-                            Andrew and David are training to run a marathon. They both go on a run on Sunday mornings at precisely 7 A.M. Andrew’s house is 22 km south of David’s. One Sunday morning, Andrew leaves his house and runs west at 7 km/hr. The distance between the
-                            two runners can be modeled by the function $$s(t) = \sqrt {130{t^2} - 396t + 484},$$ where s is in kilometers and t is in hours. Determine the rate at which the distance between the two runners is changing.</p>
-
-                        <p class="m1830-solution">$s(t)={{\left( 130{{t}^{2}}-396t+484 \right)}^{{}^{1}/{}_{2}}}$</p>
-                        <p class="m1830-solution">$s&#39;(t)=\frac{1}{2}{{\left( 130{{t}^{2}}-396t+484 \right)}^{{}^{-1}/{}_{2}}}(260t-396)$</p>
-                        <p class="m1830-answer">$s&#39;(t)=\frac{260t-396}{2\sqrt{130{{t}^{2}}-396t+484}}$</p>
-
-                        <hr>
-                    </li>
-                </ol>
-
-
-                <h4 class="m1830-pagebreak">Notes</h4>
 
                 <div class="panel panel-primary">
                   <div class="panel-heading">
@@ -209,18 +41,14 @@
                   </div>
                 </div>
 
-
-                <p>Fill in the blank with an expression that will make the indicated equation valid. Then simplify.</p>
-
-
-
-
-
+<br><br>
+<h4>3.5 Video</h4>
+                <!-- <p>Fill in the blank with an expression that will make the indicated equation valid. Then simplify.</p> -->
 
 
                 <ol>
 
-                    <li class="m1830-problem">
+                    <!-- <li class="m1830-problem">
                         <p class="m1830-problem-text">
                             $\frac{d}{{dx}}\;{\left( {3 - 7x} \right)^6} = 6{\left( {3 - 7x} \right)^5}\;$______
 
@@ -242,7 +70,7 @@
                             <span class="m1830-answer">$(2x - 4{x^3})$</span>
 
                             <p class="m1830-pagebreak"><strong>Find $f&#39;\left( x \right)$ and simplify.</strong></p>
-                    </li>
+                    </li> -->
 
                     <li class="m1830-problem">
                         <p class="m1830-problem-text">
@@ -269,7 +97,8 @@
                         <p class="m1830-answer">$f&#39;(x) = \frac{{36x - 10}}{{9{x^2} - 5x + 21}}$</p>
 
                     </li>
-
+<br><br>
+<h4>3.5 Lecture</h4>
                     <li class="m1830-problem">
                         <p class="m1830-problem-text">
                             $f\left( x \right) = \;{\left( {4x - 5\ln x} \right)^7}$</p>
@@ -345,7 +174,8 @@
                         <p class="m1830-answer">No Horizontal Tangents: There are no values of x where $f&#39;(x) = 0.$</p>
 
                     </li>
-
+<br><br>
+<h4>3.5 Group Work</h4>
                     <li class="m1830-problem">
                         <p class="m1830-problem-text">
                             $f\left( x \right) = \;3{e^{2{x^2}\; + 5x - 4}}\quad \quad x = 0$</p>
@@ -794,18 +624,15 @@
 
 
                     </li>
-                </ol>
-            </article>
+              
 
-<article class="hw">
+<br><br>
 
-      <h3>2.5A The Chain Rule</h3>
-
-      <h4>Homework</h4>
+      <h4>3.5 Additional Practice</h4>
       <p><strong>Find the derivative of each of the following.</strong></p>
 
       <!-- Begin section problem list  -->
-      <ol>
+  
 
           <li class="m1830-problem">
               <p class="m1830-problem-text"> $p(t) = {({t^3} + 4)^5}$</p>
@@ -916,17 +743,7 @@
               </ol>
 
           </li>
-          <!-- End section problem list  -->
-      </ol>
-
-<p class="m1830-pagebreak"></p>
-          <h3>2.5B The Chain Rule</h3>
-
-          <h4>Homework</h4>
-          <p><strong>Find the derivative of each of the following.</strong></p>
-
-          <!-- Begin section problem list  -->
-          <ol>
+      
 
               <li class="m1830-problem">
                   <p class="m1830-problem-text"> $p(t) = {t^2}{(5t + 1)^3}$</p>
@@ -1279,7 +1096,7 @@
           <!-- End section problem list  -->
 
 <p class="m1830-pagebreak"></p>
-              <h3>Unit 2 In-Class Review Problems</h3>
+              <h3>Unit 3 In-Class Review Problems</h3>
               <p><strong> Find the derivative of each function.  Show all of your work and simplify your answer.</strong></p>
               <!-- Begin section problem list  -->
               <ol>
@@ -1407,29 +1224,11 @@
 
 
 
-</article>
 
 
 
- <div id="ar" class="add-resources">
-          <hr>
-          <h4> Additional Resources</h4>
-<ul>
-<li>
-  <a href="pdfs/u2chainrulews.pdf" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Chain Rule Worksheet</a> 
-</li>
 
-<li>
-  <a href="pdfs/u2chainrulenaturallogsexpsws.pdf" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Chain Rule with Natural Logs and Exponents Worksheet</a> 
-</li>
 
-<li>
-  <a href="pdfs/u2derivativepracticews.pdf" target="_blank"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Derivative Practice Worksheet</a> 
-</li>
-
-</ul>
-
-        </div> 
 
     </div>
     <!-- ending of body container -->
